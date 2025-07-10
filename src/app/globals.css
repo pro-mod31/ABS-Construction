@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+
+
+.Navbar_link::after{
+  position: absolute;
+  content: "";
+  background-color: red;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  scale: 0;
+  transform-origin: left;
+  transition: all 1s;
+  border-radius: 2px;
+}
+.Navbar_link:hover::after{
+scale:1;
+}

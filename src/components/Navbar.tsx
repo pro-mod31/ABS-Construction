@@ -34,13 +34,13 @@ const Navbar = () => {
                 </div>
 
                 {/* Center-ish: Navigation Links */}
-                <div className="flex-1 flex justify-center items-center gap-10 text-2xl font-bold">
-                    <Link href="">Who We Are</Link>
-                    <Link href="">About Us</Link>
-                    <Link href="">Working Culture</Link>
-                    <Link href="">Gallery</Link>
-                    <Link href="">Career</Link>
-                    <Link href="">Connect with us</Link>
+                <div className=" flex-1 flex justify-center items-center gap-10 text-2xl font-bold">
+                    <Link href="" className='Navbar_link  relative'>Who We Are</Link>
+                    <Link href="" className='Navbar_link  relative'>About Us</Link>
+                    <Link href="" className='Navbar_link  relative'>Working Culture</Link>
+                    <Link href="" className='Navbar_link  relative'>Gallery</Link>
+                    <Link href="" className='Navbar_link  relative'>Career</Link>
+                    <Link href="" className='Navbar_link  relative'>Connect with us</Link>
                 </div>
                 {/* Right: Empty space (if needed for balance) */}
                 <div className="w-[100px]" />
