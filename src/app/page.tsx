@@ -1,8 +1,13 @@
+import Homepage from "@/components/Homepage";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>this is page</div>
+    <main>
+          <Homepage/>
+
+    </main>
+
   );
 }
