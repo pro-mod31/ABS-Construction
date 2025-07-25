@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Right: Hamburger (mobile only) */}
-                <div className="md:hidden mr-6 ">
+                <div className="md:hidden m-6 ">
                     <button onClick={toggleMenu} className="text-2xl text-white">
                         {isOpen ? <FaTimes /> : <FaBars />
 }
