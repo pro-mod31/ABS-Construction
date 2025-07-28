@@ -15,9 +15,9 @@ const Footer = () => {
                 width={100}
                 height={200}
 
-                className='w-full md:h-[474px] h-[600px]'
+                className='w-full md:h-[474px] h-[1100px]'
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-[rgba(22,26,38,0.4)] via-[rgba(22,26,38,0.5)] to-[rgba(22,26,38,0.4)]"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[rgba(5,6,8,0.4)] via-[rgba(4,5,7,0.5)] to-[rgba(9,11,16,0.4)]"></div>
             <div className="absolute inset-0 max-w-7xl mx-auto top-20">
                 <div className='grid sm:grid-cols-1 md:grid-cols-3  p-3 gap-9'>
                     <div className='space-y-3'>
@@ -47,7 +47,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='space-y-3'>
-                        <div className='grid grid-cols-2'>
+                        <div className='grid md:grid-cols-2 grid-cols-1'>
                             <div className='flex flex-col'>
                                 <h2 className='text-white font-bold'>Useful Link</h2>
                                 <div className='text-white md:font-bold flex flex-col mt-7'>
@@ -59,7 +59,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className='flex flex-col'>
-                                <h2 className='text-white md:font-bold'>Our Services</h2>
+                                <h2 className='text-white md:font-bold mt-6 md:mt-0'>Our Services</h2>
                                 <div className='text-white mt-6 space-y-2 md:font-bold'>
                                     <p>Building Construction</p>
                                     <p>Highway Construction</p>
@@ -74,8 +74,7 @@ const Footer = () => {
                     <div className='space-y-3'>
                         <div className="w-full h-[250px] rounded overflow-hidden">
                             <iframe
-                            
-                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1763.522174307904!2d83.54835718377223!3d27.869907998183027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2snp!4v1753702469977!5m2!1sen!2snpp"
+                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1763.522174307904!2d83.54835718377223!3d27.869907998183027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2snp!4v1753720631403!5m2!1sen!2snp"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}
@@ -84,7 +83,6 @@ const Footer = () => {
                                 referrerPolicy="no-referrer-when-downgrade"
                                 className='bg-gradient-to-r from-[rgba(22,26,38,0.4)] via-[rgba(22,26,38,0.5)] to-[rgba(22,26,38,0.4)]'
                             >
-
                             </iframe>
 
                         </div>
@@ -92,6 +90,11 @@ const Footer = () => {
 
                     </div>
                 </div>
+                <div className="mt-3 h-0.5 w-full   md:mt-2 bg-white  mx-auto"></div>
+                <div className='text-white font-bold text-center mt-2'>
+                    © Copyright AbsConstruction All Rights Reserved
+                </div>
+
             </div>
         </div>
     );

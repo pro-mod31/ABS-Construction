@@ -11,7 +11,7 @@ const About = () => {
                     <h2 className=''>What we do</h2>
                     <h2 className='text-4xl font-bold'>WE ARE <span className='text-yellow-300'>THE LEADER</span> IN CONSTRUCTION INDUSTRY</h2>
                     <p className='text-2xl'>We bring decades of experience, innovation, and excellence to every project we take on. As industry leaders, we are committed to delivering structures that are strong, sustainable, and built to last.</p>
-                    <div className='grid grid-cols-2'>
+                    <div className='grid grid-cols-2 '>
                         <div className='space-y-8'>
                             <h2 className='flex gap-2'> <CheckLine className='text-yellow-300' />Smart Project Planning</h2>
                             <h2 className='flex gap-2 '> <CheckLine className='text-yellow-300' />On-Time Delivery</h2>
@@ -28,23 +28,23 @@ const About = () => {
 
                     </div>
                 </div>
-                    <div className="flex justify-center">
-                        <div className="relative w-[700px] h-[450px]">
-                            {/* Background block */}
-                            <div className="absolute top-6 left-10 md:w-full md:h-full bg-gray-200 rounded-md z-0 "></div>
+                <div className="flex justify-center">
+                    <div className="relative w-[700px] h-[450px]">
+                        {/* Background block */}
+                        <div className="absolute top-6 left-10 md:w-full md:h-full bg-gray-200 rounded-md z-0 "></div>
 
-                            {/* Image */}
-                            <div className="relative md:z-10 md:top-35">
-                                <Image
-                                    src="/image1.jpg"
-                                    alt="Construction Worker"
-                                    width={650}
-                                    height={600}
-                                    className="rounded-md object-cover"
-                                />
-                            </div>
+                        {/* Image */}
+                        <div className="relative md:z-10 md:top-35">
+                            <Image
+                                src="/image1.jpg"
+                                alt="Construction Worker"
+                                width={650}
+                                height={600}
+                                className="rounded-md object-cover"
+                            />
                         </div>
-                    
+                    </div>
+
                 </div>
 
             </div>
