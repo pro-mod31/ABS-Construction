@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import About from './About';
+import Project from './Project';
 
 const Homepage = () => {
   return (
@@ -29,13 +30,9 @@ const Homepage = () => {
         <button
           className='border-4 border-yellow-500 rounded-xl px-5 py-2 text-white mt-8 hover:bg-yellow-300 cursor-pointer hover:text-black'>Get Started</button>
       </div>
-
-      
-
-
-
     </div>
     <About />
+    <Project/>
     </>
 
   );
