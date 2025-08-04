@@ -20,7 +20,7 @@ const Navbar = () => {
                 <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 gap-8  bg-[var(--secondary-color)] p-2 rounded-[11px] ">
                     <Link href="/"className='Navbar_link relative'>HOME</Link>
                     <Link href="/about" className='Navbar_link relative'>ABOUT</Link>
-                    <Link href="/culture" className='Navbar_link relative'>SERVICES</Link>
+                    <Link href="/services-page" className='Navbar_link relative'>SERVICES</Link>
                     <Link href="/gallery" className='Navbar_link relative'>CAREER</Link>
                     <Link href="/contact" className='Navbar_link relative'>CONTACT</Link>
                 </div>
@@ -45,8 +45,8 @@ const Navbar = () => {
             {isOpen && (
                 <div className="flex flex-col items-center gap-4 py-4 md:hidden font-semibold text-lg bg-gray-100 ">
                     <Link href="/" onClick={toggleMenu}>Home</Link>
-                    <Link href="/about" onClick={toggleMenu}>About Us</Link>
-                    <Link href="/culture" onClick={toggleMenu}>Working Culture</Link>
+                    <Link href="/about" onClick={toggleMenu}>About</Link>
+                    <Link href="/services-page" onClick={toggleMenu}>Services</Link>
                     <Link href="/gallery" onClick={toggleMenu}>Gallery</Link>
                     <Link href="/contact" onClick={toggleMenu}>Connect Us</Link>
                 </div>

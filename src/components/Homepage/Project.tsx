@@ -14,7 +14,7 @@ type ProjectCategory = {
   items: Omit<ProjectDetails, 'category'>[];
 };
 
-const FoodMenu = () => {
+const Projects = () => {
   const [activeCategory, setActiveCategory] = useState<string>('All');
 
   const projectCategories: ProjectCategory[] = [
@@ -95,7 +95,7 @@ const FoodMenu = () => {
               key={item.id}
               className="group flex flex-col items-cente  transition"
             >
-              <div className="relative w-full h-56 mb-4  overflow-hidden">
+              <div className="relative w-full h-56   overflow-hidden">
                 <Image
                   src={item.image}
                   alt="image"
@@ -120,4 +120,4 @@ const FoodMenu = () => {
   );
 };
 
-export default FoodMenu;
+export default Projects;
