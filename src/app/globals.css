@@ -13,7 +13,7 @@
 .Navbar_link::after{
   position: absolute;
   content: "";
-  background-color: yellowgreen;
+  background-color: red;
   width: 100%;
   height: 3px;
   bottom: -3px;

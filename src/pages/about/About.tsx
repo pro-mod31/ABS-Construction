@@ -20,16 +20,16 @@ const About = () => {
           <div className="mt-3 h-0.5 md:w-[17%] w-[50%]  md:mt-2 bg-white  mx-auto"></div>
         </div>
       </div>
-      <div className='max-w-7xl m-auto md:mt-9'>
+      <div className='max-w-6xl m-auto md:mt-9'>
         <div className="flex">
-          <div className="relative w-[700px] h-[450px] flex flex-row-reverse items-center justify-center ml-25">
+          <div className="relative w-[700px] h-[450px] flex flex-row-reverse items-center justify-center ml-9">
             {/* Background block with content */}
-            <div className="absolute top-6 right-10 bg-gray-200 rounded-md z-0 w-full h-full p-10 md:mt-20">
+            <div className="absolute top-8 right-10 bg-gray-200 rounded-md z-0 w-[550] h-[300] p-10 md:mt-30">
               <div className="text-black max-w-md">
-                <h3 className="text-sm  md:mb-3">Est 2000</h3>
+                <h3 className="text-sm  ">Est 2000</h3>
 
-                <h3 className="text-2xl font-semibold md:mb-3">OUR STORY</h3>
-                <p className="text-l leading-relaxed w-[100%]">
+                <h3 className="text-2xl font-semibold ">OUR STORY</h3>
+                <p className="text-l leading-relaxed w-[90%]">
                   We are a team of dedicated construction professionals with decades of combined experience delivering high-quality,
                   innovative, and reliable infrastructure solutions. Our expertise spans residential, commercial.</p>
 
@@ -50,9 +50,9 @@ const About = () => {
               <Image
                 src="/image1.jpg"
                 alt="Construction Worker"
-                width={650}
+                width={500}
                 height={600}
-                className="hidden md:flex rounded-md object-cover"
+                className="hidden lg:flex md:flex rounded-md object-cover"
               />
             </div>
           </div>

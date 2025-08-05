@@ -31,7 +31,7 @@ const About = () => {
                 <div className="flex justify-center">
                     <div className="relative w-[700px] h-[450px]">
                         {/* Background block */}
-                        <div className="absolute top-6 left-10 md:w-full md:h-full bg-gray-200 rounded-md z-0 "></div>
+                        <div className="hidden md:flex absolute top-6 left-10 md:w-full md:h-full bg-gray-200 rounded-md z-0 "></div>
 
                         {/* Image */}
                         <div className="relative md:z-10 md:top-35">
