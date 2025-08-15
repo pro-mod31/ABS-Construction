@@ -14,7 +14,6 @@ const Footer = () => {
                 alt='this is a footer image'
                 width={100}
                 height={200}
-
                 className='w-full md:h-[474px] h-[1100px]'
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[rgba(5,6,8,0.4)] via-[rgba(4,5,7,0.5)] to-[rgba(9,11,16,0.4)]"></div>
